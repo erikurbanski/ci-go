@@ -5,7 +5,7 @@ on:
       - develop
 strategy:
   matrix:
-    go: ['1.14','1.15']
+    go: ['1.14', '1.15']
 jobs:
   check-application:
     runs-on: ubuntu-latest
